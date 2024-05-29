@@ -12,6 +12,9 @@ html {
   overflow-x:clip;
   text-align: center;
   max-width: 100%;
+
+  word-wrap: break-word;
+  word-break: break-word;
   /*color: #000b18;*/
 }
 
