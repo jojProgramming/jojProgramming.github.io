@@ -1,151 +1,151 @@
 
 <!DOCTYPE html>
 
-<html>
-    <head>
-        <link rel="stylesheet" href="Stylesheet.css">
-        <title>About Jamie</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" type="image/x-icon" href="images/favicon.png">
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="Stylesheet.css">
+		<title>About Jamie</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" type="image/x-icon" href="images/favicon.png">
 
-        <!-- Get required fonts (Lato) from Google Fonts. 
-            Lato is licenced under the SIL Open Font Licence 
-            and was designed by Łukasz Dziedzic https://openfontlicense.org/-->
+		<!-- Get required fonts (Lato) from Google Fonts.
+			Lato is licenced under the SIL Open Font Licence
+			and was designed by Łukasz Dziedzic https://openfontlicense.org/-->
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-       
-    </head>
-    <body style="width: 100%;">        
-        <nav id = "navbar">
-            <div class = "flex-container">
-                <div class ="flex-child">
-                    <a href = "">
-                        <img  alt="Jamie Logo" class="headerIcon" src="images/longIcon.png">
-                    </a>
-                    	                
-                </div>
-                
-                <div class = "flex-child">
-                    <!-- THIS DIV SHOULD BE EMPTY-->
-                </div>
+		<link rel="preconnect" href="https://fonts.googleapis.com"> <!-- FONTS -->
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+	</head>
+	<body style="width: 100%;">
+		<nav id = "navbar">
+			<div class = "flex-container">
+				<div class ="flex-child">
+					<a href = "">
+						<img  alt="Jamie Logo" class="headerIcon" src="images/longIcon.png">
+					</a>
 
-                <div class = "flex-child">
-                    <button class="buttonTemplate"onclick="goToTop()" id="toTopButton" title="Back to top"> Back to top.</button>
-                </div> 
-            </div>
-        </nav>
+				</div>
 
-        <div style="width: 95%">
-            <div class="flex-container">
-                <div class = "flex-child">
-                    <img src="images/Icon.png" class= "icon" alt="Purple Ball Icon">
-                </div>
-            </div>
+				<div class = "flex-child">
+					<!-- THIS DIV SHOULD BE EMPTY-->
+				</div>
 
-            <div class="flex-container">
-                <div class = "flex-child">
-                    <h1 style="margin-top: 2%; margin-bottom: 0%;">
-                        Student.&emsp;Designer.&emsp;Developer.
-                    </h1>
-        
-                    <p>
-                        <br>
-                        Studying Computer Science in the UK.<br>
-                        I've been involved in Web Design, Graphic Design for Print, and Photography.<br>
-                    </p>
-                    <form method="get" action="#design" style = "margin: 7%;">
-                        <button type="submit" class="buttonTemplateSmaller" alt = "go down"> 
-                            <img src="images/NavDown.png" alt = "navigate down icon">
-                        </button>
-                    </form>
-                </div>
-            </div>
-            
-            <div  id = "design" style="margin-bottom: 10%;">
-            </div>
+				<div class = "flex-child">
+					<button class="buttonTemplate"onclick="goToTop()" id="toTopButton" title="Back to top"> Back to top.</button>
+				</div>
+			</div>
+		</nav>
 
-            <div class="centerBlue" style="background-image: url(images/back.png); background-color: #00397a; margin-top: 10%;">
-                <div class="restricted40">
-                    <h1>
-                        Graphic Design
-                    </h1>
-                    <p>
-                        Creating visual experiences is a core part of modern design. I continue to learn how to best use Inkscape,
-                        a powerful vector editor, in order to create logos and other graphics.
-                    </p>
-                </div>
-            </div>
+		<div style="width: 95%">
+			<div class="flex-container">
+				<div class = "flex-child">
+					<img src="images/Icon.png" class= "icon" alt="Purple Ball Icon">
+				</div>
+			</div>
 
-            <div class="centerBlue">
-                <div class="flex-container">
-                    <div class="flex-child">
-                        <div class = "flex-container" style = "align-items: center; flex-direction: column;"> 
-                            <div class="flex-child"> 
-                                <h1>
-                                    Photography
-                                </h1>
-                            </div>
-                            <div class="flex-child"> 
-                                <p>
-                                    I took up the camera after the lockdowns eased, and haven't put it down since.
-                                    I've used the photography in academic settings for presentations, including Computer Science.<br>
-                                    Both the inside world and outside world are interesting to me. 
-                                    All images on this site are of my taking.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class = "flex-child">
-                        <img class="curvy" src="images/showcase.png" alt = "sample image - a butterfly on a flower, copyrighted Jamie, 2021.">
-                    </div>
-                </div>
-            </div>
+			<div class="flex-container">
+				<div class = "flex-child">
+					<h1 style="margin-top: 2%; margin-bottom: 0%; min-height: 72px" class="monospace" id="pagetitle">
+						Student. Designer. Developer.
+					</h1>
 
-            <div class="centerBlue" style="background-image: url(images/computing.png); background-color: #00397a; margin-top: 10%;">
-                <div class="restricted40r">
-                    <div class = "flex-container" style = "align-items: center; flex-direction: column; background-color: #000000a5; border-radius: 30px 30px;" > 
-                        <div class="flex-child"> 
-                            <h1>
-                                Programming
-                            </h1>
-                        </div>
-                        <div class="flex-child"> 
-                            <p>
-                                As part of Computing Courses, I've developed primarily CLI applications in C and Python.
-                                Additionally, I have started basic game development in Greenfoot with Java, and Godot with GDScript. <br>
-                                I've made several websites from scratch, including this one.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
+					<p>
+						<br>
+						Studying Computer Science in the UK.<br>
+						I've been involved in Web Design, Graphic Design for Print, and Photography.<br>
+					</p>
+					<form method="get" action="#design" style = "margin: 7%;">
+						<button type="submit" class="buttonTemplateSmaller" alt = "go down">
+							<img src="images/NavDown.png" alt = "navigate down icon">
+						</button>
+					</form>
+				</div>
+			</div>
+
+			<div  id = "design" style="margin-bottom: 10%;">
+			</div>
+
+			<div class="centerBlue" style="background-image: url(images/back.png); background-color: #00397a; margin-top: 10%;">
+				<div class="restricted40">
+					<h1>
+						Graphic Design
+					</h1>
+					<p>
+						Creating visual experiences is a core part of modern design. I continue to learn how to best use Inkscape,
+						a powerful vector editor, in order to create logos and other graphics.
+					</p>
+				</div>
+			</div>
+
+			<div class="centerBlue">
+				<div class="flex-container">
+					<div class="flex-child">
+						<div class = "flex-container" style = "align-items: center; flex-direction: column;">
+							<div class="flex-child">
+								<h1>
+									Photography
+								</h1>
+							</div>
+							<div class="flex-child">
+								<p>
+									I took up the camera after the lockdowns eased, and haven't put it down since.
+									I've used the photography in academic settings for presentations, including Computer Science.<br>
+									Both the inside world and outside world are interesting to me.
+									All images on this site are of my taking.
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div class = "flex-child">
+						<img class="curvy" src="images/showcase.png" alt = "sample image - a butterfly on a flower, copyrighted Jamie, 2021.">
+					</div>
+				</div>
+			</div>
+
+			<div class="centerBlue" style="background-image: url(images/computing.png); background-color: #00397a; margin-top: 10%;">
+				<div class="restricted40r">
+					<div class = "flex-container" style = "align-items: center; flex-direction: column; background-color: #000000a5; border-radius: 30px 30px;" >
+						<div class="flex-child">
+							<h1>
+								Programming
+							</h1>
+						</div>
+						<div class="flex-child">
+							<p>
+								As part of Computing Courses, I've developed primarily CLI applications in C and Python.
+								Additionally, I have started basic game development in Greenfoot with Java, and Godot with GDScript. <br>
+								I've made several websites from scratch, including this one.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
 
 
-        </div>
 
-        <footer>
-            <footer>
-                <div class = "flex-container">
-                    <div class = "flex-child">
-                        <h4>
-                            Website © Jamie, 2024.
-                        </h4>
-                    </div>
-    
-                    <div class = "flex-child">
-                        <h4>
-                            Images © Jamie, 2021-23. All Rights Reserved.
-                        </h4>
-                    </div>
-                </div>
-            </footer>
-        </footer>
+		</div>
 
-        <script src="scripts/main.js"></script>
+		<footer>
+			<footer>
+				<div class = "flex-container">
+					<div class = "flex-child">
+						<h4>
+							Website © Jamie, 2024.
+						</h4>
+					</div>
 
-    </body>
+					<div class = "flex-child">
+						<h4>
+							Images © Jamie, 2021-23. All Rights Reserved.
+						</h4>
+					</div>
+				</div>
+			</footer>
+		</footer>
+
+		<script src="scripts/main.js"></script>
+
+	</body>
 </html>

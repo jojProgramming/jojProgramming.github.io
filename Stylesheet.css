@@ -18,6 +18,13 @@ html {
   /*color: #000b18;*/
 }
 
+.monospace {
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
 body{
     background-color: #ebd8f0;
     background-size:cover;
@@ -35,6 +42,7 @@ h1{
     text-align: center;
     font-weight: bold;
     width:100%;
+  font-size:3em;
     display: inline-block;
 }
 
