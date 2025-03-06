@@ -18,26 +18,10 @@
 		<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
 	</head>
 	<body style="width: 100%;">
-		<nav id = "navbar">
-			<div class = "flex-container">
-				<div class ="flex-child">
-					<a href = "">
-						<img  alt="Jamie Logo" class="headerIcon" src="images/longIcon.png">
-					</a>
-
-				</div>
-
-				<div class = "flex-child">
-					<!-- THIS DIV SHOULD BE EMPTY-->
-				</div>
-
-				<div class = "flex-child">
-					<button class="buttonTemplate"onclick="goToTop()" id="toTopButton" title="Back to top"> Back to top.</button>
-				</div>
-			</div>
-		</nav>
-
-		<div style="width: auto; margin-top: 2%; margin-bottom: 4%;">
+	<div style="display: flex;
+  flex-direction: column;
+  min-height: 100vh;">
+		<div style="width: auto; margin-top: 5%; margin-bottom: 5%; flex: 1; display: block;">
 			<div class="flex-container">
 				<div class = "flex-child">
 					<img src="images/Icon.png" class= "icon" alt="Purple Ball Icon">
@@ -51,10 +35,14 @@
 					</h1>
 
 					<h2 class="monospace">
-						Studying Computer Science. <br>
-						Learning Design & Development in the United Kingdom.
-
+						Studying Computer Science <br>
+						in the United Kingdom.
 					</h2>
+
+					<h4 class="monospace">
+						I've developed applications using the C# .NET Avalonia Stack.
+						<br>I'm also interested in photography and design.
+					</h4>
 					<!--
 					<form method="get" action="#design" style = "margin: 7%;">
 						<button type="submit" class="buttonTemplateSmaller" alt = "go down">
@@ -85,6 +73,29 @@
 				</div>
 			</footer>
 		</footer>
+	</div>
+	<!--
+		<nav id = "navbar">
+			<div class = "flex-container">
+				<div class ="flex-child">
+					<a href = "">
+						<img  alt="Jamie Logo" class="headerIcon" src="images/longIcon.png">
+					</a>
+
+				</div>
+
+				<div class = "flex-child">
+					<- THIS DIV SHOULD BE EMPTY->
+				</div>
+
+				<div class = "flex-child">
+					<button class="buttonTemplate"onclick="goToTop()" id="toTopButton" title="Back to top"> Back to top.</button>
+				</div>
+			</div>
+		</nav>
+	-->
+
+
 
 		<script src="scripts/main.js"></script>
 
