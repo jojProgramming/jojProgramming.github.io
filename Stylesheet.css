@@ -5,6 +5,12 @@ html {
   scroll-behavior: smooth;
   padding: 0%;
   margin: 0%;
+
+
+  background-color: #ebd8f0;
+  background-size:cover;
+  background-position: center;
+  background-attachment:fixed;
 }
 
 * {
@@ -26,10 +32,6 @@ html {
 }
 
 body{
-    background-color: #ebd8f0;
-    background-size:cover;
-    background-position: center;
-    background-attachment:fixed; 
 
     padding: 0%;
     margin: 0%;
@@ -116,6 +118,10 @@ nav {
   font-family: "Lato", sans-serif;
   font-weight: bold;
   color: #EBF2F9;
+}
+
+.rounded{
+  border-radius: 20px;
 }
 
 .buttonTemplateLighter {
