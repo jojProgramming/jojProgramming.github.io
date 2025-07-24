@@ -35,7 +35,11 @@ function TypingEffect(){
 
 	setTimeout(TypingEffect, 50);
 }
-TypingEffect();
+if (window.innerWidth >= 1000 ){
+	TypingEffect();
+}
+
+
 
 // Buttons
 function jump(myVal){
